@@ -1,0 +1,16 @@
+{
+  "name": "@cab/placeholder",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/placeholder.js",
+  "scripts": {
+    "test": "mkdir test_run && sjs --module ./index.js test/placeholder.js > test_run/placeholder.js && ava -v test_run; rm -rf test_run"
+  },
+  "author": "Conner Bryan <conner.bryan@amps.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "mocha": "^3.2.0",
+    "sweet.js": "^2.2.1"
+  }
+}
